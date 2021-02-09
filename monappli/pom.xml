@@ -25,4 +25,8 @@
      <module>monappli-service</module>
     <module>monappli-web</module>
   </modules>
+  <scm>
+    <connection>scm:git:https://github.com/Abdel123123/tpmutlimaven.git</connection>
+    <developerConnection>scm:git:https://github.com/Abdel123123/tpmutlimaven.git</developerConnection>
+  </scm>
  </project>

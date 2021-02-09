@@ -29,4 +29,18 @@
     <connection>scm:git:https://github.com/Abdel123123/tpmutlimaven.git</connection>
     <developerConnection>scm:git:https://github.com/Abdel123123/tpmutlimaven.git</developerConnection>
   </scm>
+  <build>
+  <plugins>
+    <plugin>
+        <groupId>org.apache.tomcat.maven</groupId>
+        <artifactId>tomcat7-maven-plugin</artifactId>
+        <version>2.2</version>
+        <configuration>
+            <url>http://localhost:8080/manager/text</url>
+            <username>abdel</username>
+			<password>test</password>
+        </configuration>
+    </plugin>
+ </plugins>	
+</build>
  </project>
